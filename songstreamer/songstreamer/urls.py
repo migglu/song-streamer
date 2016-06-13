@@ -17,7 +17,10 @@ from django.conf.urls import url
 from django.conf.urls import include
 from django.contrib import admin
 
+from songs import urls
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api-auth/', include('rest_framework.urls')),
+    url(r'^api/v1/', include(urls))
 ]
