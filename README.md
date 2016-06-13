@@ -1,5 +1,5 @@
 # Song Streamer
-A project to enable streaming personal music securely
+A project to enable streaming personal music securely over the Internet
 
 ## Requirements
 - python3
